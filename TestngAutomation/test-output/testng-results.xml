@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T20:32:16 IST" name="Default suite" finished-at="2023-12-08T20:32:17 IST" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T20:32:16 IST" name="Default test" finished-at="2023-12-08T20:32:17 IST" duration-ms="51">
+      <class name="com.sgtesting.parameters.DataProviderDemo">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.parameters.DataProviderDemo@3514a4c0]" started-at="2023-12-08T20:32:16 IST" name="login" data-provider="logindata" finished-at="2023-12-08T20:32:17 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.parameters.DataProviderDemo@3514a4c0]" started-at="2023-12-08T20:32:17 IST" name="login" data-provider="logindata" finished-at="2023-12-08T20:32:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.parameters.DataProviderDemo@3514a4c0]" started-at="2023-12-08T20:32:17 IST" name="login" data-provider="logindata" finished-at="2023-12-08T20:32:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bagyashree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.sgtesting.parameters.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

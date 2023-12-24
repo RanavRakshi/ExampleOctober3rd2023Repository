@@ -1,7 +1,7 @@
 package com.sgtesting.excelfile;
 /*3)There is an  Excel file it has 20 rows of student details that includes Fname,
 Lname, CourseName, BranchName, Cityname, address, statename read  
-this content and write it inro a new Excel file*/
+this content and write it into a new Excel file*/
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 

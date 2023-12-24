@@ -1,0 +1,814 @@
+<html>
+<head>
+<title>TestNG:  Scenarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Scenarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>147/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 13:04:16 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>700 seconds (700031 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.modifyProject()'><b>modifyProject</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsAdmin1()'><b>logInAsAdmin1</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.logout()'><b>logout</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll<br>Parameters: admin, manager</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll<br>Parameters: Ranav, Good Programmer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.createUsers()'><b>createUsers</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Ravi, Demo, qwer@gmail.com, Raviraj, zxcv@123, zxcv@123</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.minimizeFlyWindow3()'><b>minimizeFlyWindow3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.adminLogin()'><b>adminLogin</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.modifyUser1()'><b>modifyUser1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: zxcv@123, zxcv@123</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser22()'><b>logInAsUser22</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Thilakthili, qwer@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.modifyUser()'><b>modifyUser</b><br>Test class: com.sgtesting.tests.Q2ModifyUser<br>Parameters: zxcvb@gmail.com</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.login()'><b>login</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario<br>Parameters: admin, manager</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.createUser()'><b>createUser</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario<br>Parameters: User1, Demo, qwert@gmail.com, DemoUser, qwer@123, qwer@123</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser3()'><b>logOutUser3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow4()'><b>minimizeFlyWindow4</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutAdmin12()'><b>logOutAdmin12</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser2()'><b>logInAsUser2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Thilakthili, asdf@123</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logIn()'><b>logIn</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAdmin()'><b>logInAdmin</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser1()'><b>logOutUser1</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logIn()'><b>logIn</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser12()'><b>logOutUser12</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser31()'><b>logOutUser31</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.createUser1()'><b>createUser1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ranav, Demo, qwer@gmail.com, Ranavrakshi, qwer@123, qwer@123</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser12()'><b>logInAsUser12</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ranavrakshi, zxcv@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAdmin1()'><b>logInAdmin1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: admin, manager</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser1()'><b>logOutUser1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.deleteUsers()'><b>deleteUsers</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.createUsers()'><b>createUsers</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Ranav, Demo, qwer@gmail.com, Ranavrakshi, qwer@123, qwer@123</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser21()'><b>logInAsUser21</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Thilakthili, asdf@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer<br>Parameters: Ranav, Good Programmer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow2()'><b>minimizeFlyWindow2</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.minimizeFlyWindow1()'><b>minimizeFlyWindow1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.createProject()'><b>createProject</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll<br>Parameters: LoginPageBuild</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUSer31()'><b>logInAsUSer31</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Raviraj, qwer@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.createUser3()'><b>createUser3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ravi, Demo, qwer@gmail.com, Raviraj, zxcv@123, zxcv@123</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll<br>Parameters: admin, manager</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser23()'><b>logOutUser23</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow41()'><b>minimizeFlyWindow41</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutAdmin1()'><b>logOutAdmin1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.modifyCustomer()'><b>modifyCustomer</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.deleteUser1()'><b>deleteUser1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer<br>Parameters: admin, manager</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.createProject()'><b>createProject</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll<br>Parameters: LoginPageBuild</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUser21()'><b>logInAsUser21</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Thilakthili, zxcv@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.deleteTask()'><b>deleteTask</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutAdmin1()'><b>logOutAdmin1</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser11()'><b>logOutUser11</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser13()'><b>logInAsUser13</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ranavrakshi, zxcv@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.createProject()'><b>createProject</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete<br>Parameters: LoginPageBuild</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer<br>Parameters: Ranav, Good Programmer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser31()'><b>logInAsUser31</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Raviraj, asdf@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.minimizeFlyWindow2()'><b>minimizeFlyWindow2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete<br>Parameters: admin, manager</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll<br>Parameters: Ranav, Good Programmer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.modifyUser3()'><b>modifyUser3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: asdf@123, asdf@123</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario<br>Parameters: admin, manager</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUSer3()'><b>logInAsUSer3</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Raviraj, zxcv@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.createTask()'><b>createTask</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll<br>Parameters: Functional Testing</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUser1()'><b>logInAsUser1</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Ranavrakshi, qwer@123</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.modifyUsersPassword()'><b>modifyUsersPassword</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: asdf@123, asdf@123, zxcv@123, zxcv@123, qwer@123, qwer@123</td>
+<td></td>
+<td>27</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser11()'><b>logInAsUser11</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ranavrakshi, qwer@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow3()'><b>minimizeFlyWindow3</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser22()'><b>logOutUser22</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.createUsers()'><b>createUsers</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Thilak, Demo, qwer@gmail.com, Thilakthili, asdf@123, asdf@123</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser31()'><b>logOutUser31</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser2()'><b>logOutUser2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.logIn()'><b>logIn</b><br>Test class: com.sgtesting.tests.Q2ModifyUser<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser21()'><b>logOutUser21</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.logOut()'><b>logOut</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll@4d5650ae</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOut()'><b>logOut</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser3()'><b>logOutUser3</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.createUser()'><b>createUser</b><br>Test class: com.sgtesting.tests.Q2ModifyUser<br>Parameters: User1, Demo, asdfg@gmail.com, DemoUser1, asdf@123, asdf@123</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser21()'><b>logOutUser21</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete<br>Parameters: Ranav, Good Programmer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q2ModifyUser.minimizeFlyWindow()'><b>minimizeFlyWindow</b><br>Test class: com.sgtesting.tests.Q2ModifyUser</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.tests.Q2ModifyUser@576d5deb</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.createUser2()'><b>createUser2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Thilak, Demo, qwer@gmail.com, Thilakthili, asdf@123, asdf@123</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.deleteUser2()'><b>deleteUser2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser1()'><b>logInAsUser1</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Ranavrakshi, qwer@123</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutAdmin()'><b>logOutAdmin</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.logOut()'><b>logOut</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logOutUser2()'><b>logOutUser2</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q1CreateDeleteUserScenario.closeBrowser()'><b>closeBrowser</b><br>Test class: com.sgtesting.tests.Q1CreateDeleteUserScenario</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q1CreateDeleteUserScenario@5e600dd5</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser13()'><b>logOutUser13</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUser11()'><b>logInAsUser11</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Ranavrakshi, asdf@123</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.minimizeFlyWindow1()'><b>minimizeFlyWindow1</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q4CreateModifyDeleteCustomer.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q4CreateModifyDeleteCustomer<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q4CreateModifyDeleteCustomer@2e3967ea</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser23()'><b>logInAsUser23</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Thilakthili, qwer@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll.navigate()'><b>navigate</b><br>Test class: com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll<br>Parameters: http://localhost/login.do</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll@a38c7fe</td></tr>
+<tr>
+<td title='com.sgtesting.tests.LoginLogoutScenario.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.tests.LoginLogoutScenario</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.LoginLogoutScenario@1151e434</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.modifyUser2()'><b>modifyUser2</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: qwer@123, qwer@123</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.deleteUser3()'><b>deleteUser3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q3CreateDeleteCustomer.login()'><b>login</b><br>Test class: com.sgtesting.tests.Q3CreateDeleteCustomer<br>Parameters: admin, manager</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q3CreateDeleteCustomer@5d534f5d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q5CreateCustomeProjectAndDelete.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.tests.Q5CreateCustomeProjectAndDelete</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q5CreateCustomeProjectAndDelete@70e9c95d</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logOutUser11()'><b>logOutUser11</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q8AdvancedScenarios.logInAsUser2()'><b>logInAsUser2</b><br>Test class: com.sgtesting.tests.Q8AdvancedScenarios<br>Parameters: Thilakthili, asdf@123</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.tests.Q8AdvancedScenarios@6fdbe764</td></tr>
+<tr>
+<td title='com.sgtesting.tests.Q9AdvancedScenarioScenarios2.logInAsUser3()'><b>logInAsUser3</b><br>Test class: com.sgtesting.tests.Q9AdvancedScenarioScenarios2<br>Parameters: Raviraj, zxcv@123</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.tests.Q9AdvancedScenarioScenarios2@51c668e3</td></tr>
+</table><p>
+</body>
+</html>

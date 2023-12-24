@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestngScenario]">
+  <test thread-count="5" name="Scenarios(failed)">
+    <classes>
+      <class name="com.sgtesting.tests.Q1CreateDeleteUserScenario">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- com.sgtesting.tests.Q1CreateDeleteUserScenario -->
+      <class name="com.sgtesting.tests.Q2ModifyUser">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- com.sgtesting.tests.Q2ModifyUser -->
+    </classes>
+  </test> <!-- Scenarios(failed) -->
+</suite> <!-- Failed suite [TestngScenario] -->

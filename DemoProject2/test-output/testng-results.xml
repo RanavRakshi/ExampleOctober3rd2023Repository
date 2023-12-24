@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="143" passed="143" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T17:07:57 IST" name="TestngScenario" finished-at="2023-12-20T17:19:14 IST" duration-ms="677085">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T17:07:57 IST" name="Scenarios" finished-at="2023-12-20T17:19:14 IST" duration-ms="677085">
+      <class name="com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:28 IST" name="launchBrowser" finished-at="2023-12-20T17:11:31 IST" duration-ms="2354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:31 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:11:34 IST" duration-ms="3420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:34 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:11:39 IST" duration-ms="4724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:39 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:11:40 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:40 IST" name="createCustomer" data-provider="createCustomerData" finished-at="2023-12-20T17:11:50 IST" duration-ms="9714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:6, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:50 IST" name="createProject" data-provider="createProjectData" finished-at="2023-12-20T17:11:58 IST" duration-ms="7920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginPageBuild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="modifyProject()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:11:58 IST" name="modifyProject" finished-at="2023-12-20T17:12:03 IST" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method signature="deleteCustomer()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:12:03 IST" name="deleteCustomer" finished-at="2023-12-20T17:12:12 IST" duration-ms="8521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOutAdmin()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:12:12 IST" name="logOutAdmin" finished-at="2023-12-20T17:12:13 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="closeBrowser()[pri:10, instance:com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll@b9b00e0]" started-at="2023-12-20T17:12:13 IST" name="closeBrowser" finished-at="2023-12-20T17:12:19 IST" duration-ms="6491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q6CreateCustomeProjectModifyProjectAndDeleteAll -->
+      <class name="com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:19 IST" name="launchBrowser" finished-at="2023-12-20T17:12:22 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:22 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:12:25 IST" duration-ms="3339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:25 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:12:31 IST" duration-ms="6506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:31 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:12:33 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:33 IST" name="createCustomer" data-provider="createCustomerData" finished-at="2023-12-20T17:12:42 IST" duration-ms="9580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:6, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:42 IST" name="createProject" data-provider="createProjectData" finished-at="2023-12-20T17:12:50 IST" duration-ms="7604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginPageBuild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="createTask(java.lang.String)[pri:7, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:50 IST" name="createTask" data-provider="createTaskData" finished-at="2023-12-20T17:12:57 IST" duration-ms="7600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Functional Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="deleteTask()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:12:57 IST" name="deleteTask" finished-at="2023-12-20T17:13:08 IST" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method signature="deleteProject()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:13:08 IST" name="deleteProject" finished-at="2023-12-20T17:13:17 IST" duration-ms="9392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:10, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:13:17 IST" name="deleteCustomer" finished-at="2023-12-20T17:13:26 IST" duration-ms="8457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOutAdmin()[pri:11, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:13:26 IST" name="logOutAdmin" finished-at="2023-12-20T17:13:27 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="closeBrowser()[pri:12, instance:com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll@506ae4d4]" started-at="2023-12-20T17:13:27 IST" name="closeBrowser" finished-at="2023-12-20T17:13:33 IST" duration-ms="5775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q7CreateCustomerProjectTaskAndDeleteAll -->
+      <class name="com.sgtesting.tests.pomscenarios.Q2ModifyUser">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:08:50 IST" name="launchBrowser" finished-at="2023-12-20T17:08:53 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:08:53 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:08:56 IST" duration-ms="3755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:08:56 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:09:00 IST" duration-ms="3851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:00 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:09:01 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:01 IST" name="createUser" data-provider="createUserData" finished-at="2023-12-20T17:09:15 IST" duration-ms="13824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdfg@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DemoUser1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="modifyUser(java.lang.String)[pri:6, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:15 IST" name="modifyUser" data-provider="modifyUserData" finished-at="2023-12-20T17:09:22 IST" duration-ms="6858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zxcvb@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method signature="deleteUser()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:22 IST" name="deleteUser" finished-at="2023-12-20T17:09:29 IST" duration-ms="6556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logOut()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:29 IST" name="logOut" finished-at="2023-12-20T17:09:31 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="closeBrowser()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q2ModifyUser@4efac082]" started-at="2023-12-20T17:09:31 IST" name="closeBrowser" finished-at="2023-12-20T17:09:31 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q2ModifyUser -->
+      <class name="com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:03 IST" name="launchBrowser" finished-at="2023-12-20T17:16:06 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:06 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:16:09 IST" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:09 IST" name="login" data-provider="loginData" finished-at="2023-12-20T17:16:18 IST" duration-ms="8794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:18 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:16:19 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createUser1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:19 IST" name="createUser1" data-provider="createUser1Data" finished-at="2023-12-20T17:16:32 IST" duration-ms="12844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser1 -->
+        <test-method signature="logOutAdmin()[pri:6, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:32 IST" name="logOutAdmin" finished-at="2023-12-20T17:16:33 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="logInAsUser1(java.lang.String,java.lang.String)[pri:7, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:33 IST" name="logInAsUser1" data-provider="loginUser1Data" finished-at="2023-12-20T17:16:40 IST" duration-ms="7204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser1 -->
+        <test-method signature="minimizeFlyWindow1()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:40 IST" name="minimizeFlyWindow1" finished-at="2023-12-20T17:16:42 IST" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow1 -->
+        <test-method signature="createUser2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:42 IST" name="createUser2" data-provider="createUser2Data" finished-at="2023-12-20T17:16:54 IST" duration-ms="11866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser2 -->
+        <test-method signature="logOutUser1()[pri:10, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:54 IST" name="logOutUser1" finished-at="2023-12-20T17:16:56 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser1 -->
+        <test-method signature="logInAsUser2(java.lang.String,java.lang.String)[pri:11, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:16:56 IST" name="logInAsUser2" data-provider="loginUser2Data" finished-at="2023-12-20T17:17:03 IST" duration-ms="7352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser2 -->
+        <test-method signature="minimizeFlyWindow2()[pri:12, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:03 IST" name="minimizeFlyWindow2" finished-at="2023-12-20T17:17:05 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow2 -->
+        <test-method signature="createUser3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:05 IST" name="createUser3" data-provider="createUser3Data" finished-at="2023-12-20T17:17:17 IST" duration-ms="11477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser3 -->
+        <test-method signature="logOutUser2()[pri:14, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:17 IST" name="logOutUser2" finished-at="2023-12-20T17:17:18 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser2 -->
+        <test-method signature="logInAsUser3(java.lang.String,java.lang.String)[pri:15, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:18 IST" name="logInAsUser3" data-provider="loginUser3Data" finished-at="2023-12-20T17:17:24 IST" duration-ms="5786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser3 -->
+        <test-method signature="minimizeFlyWindow3()[pri:16, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:24 IST" name="minimizeFlyWindow3" finished-at="2023-12-20T17:17:26 IST" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow3 -->
+        <test-method signature="logOutUser3()[pri:17, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:26 IST" name="logOutUser3" finished-at="2023-12-20T17:17:27 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser3 -->
+        <test-method signature="logInAsUser21(java.lang.String,java.lang.String)[pri:18, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:27 IST" name="logInAsUser21" data-provider="loginUser21Data" finished-at="2023-12-20T17:17:33 IST" duration-ms="5762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser21 -->
+        <test-method signature="modifyUser3(java.lang.String,java.lang.String)[pri:19, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:33 IST" name="modifyUser3" data-provider="modifyUser3Data" finished-at="2023-12-20T17:17:43 IST" duration-ms="10122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser3 -->
+        <test-method signature="logOutUser21()[pri:20, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:43 IST" name="logOutUser21" finished-at="2023-12-20T17:17:44 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser21 -->
+        <test-method signature="logInAsUser31(java.lang.String,java.lang.String)[pri:21, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:44 IST" name="logInAsUser31" data-provider="loginUser31Data" finished-at="2023-12-20T17:17:50 IST" duration-ms="5879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser31 -->
+        <test-method signature="logOutUser31()[pri:22, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:50 IST" name="logOutUser31" finished-at="2023-12-20T17:17:51 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser31 -->
+        <test-method signature="logInAsUser11(java.lang.String,java.lang.String)[pri:23, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:51 IST" name="logInAsUser11" data-provider="loginUser11Data" finished-at="2023-12-20T17:17:57 IST" duration-ms="5792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser11 -->
+        <test-method signature="modifyUser2(java.lang.String,java.lang.String)[pri:24, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:17:57 IST" name="modifyUser2" data-provider="modifyUser2Data" finished-at="2023-12-20T17:18:07 IST" duration-ms="10238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser2 -->
+        <test-method signature="logOutUser11()[pri:25, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:07 IST" name="logOutUser11" finished-at="2023-12-20T17:18:09 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser11 -->
+        <test-method signature="logInAsUser22(java.lang.String,java.lang.String)[pri:26, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:09 IST" name="logInAsUser22" data-provider="loginUser22Data" finished-at="2023-12-20T17:18:14 IST" duration-ms="5728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser22 -->
+        <test-method signature="logOutUser22()[pri:27, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:14 IST" name="logOutUser22" finished-at="2023-12-20T17:18:16 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser22 -->
+        <test-method signature="logInAdmin(java.lang.String,java.lang.String)[pri:28, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:16 IST" name="logInAdmin" data-provider="loginData" finished-at="2023-12-20T17:18:21 IST" duration-ms="5607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAdmin -->
+        <test-method signature="modifyUser1(java.lang.String,java.lang.String)[pri:29, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:21 IST" name="modifyUser1" data-provider="modifyUser1Data" finished-at="2023-12-20T17:18:32 IST" duration-ms="10491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser1 -->
+        <test-method signature="logOutAdmin1()[pri:30, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:32 IST" name="logOutAdmin1" finished-at="2023-12-20T17:18:33 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin1 -->
+        <test-method signature="logInAsUser12(java.lang.String,java.lang.String)[pri:31, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:33 IST" name="logInAsUser12" data-provider="loginUser12Data" finished-at="2023-12-20T17:18:39 IST" duration-ms="5795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser12 -->
+        <test-method signature="logOutUser12()[pri:32, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:39 IST" name="logOutUser12" finished-at="2023-12-20T17:18:40 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser12 -->
+        <test-method signature="logInAsUser23(java.lang.String,java.lang.String)[pri:33, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:40 IST" name="logInAsUser23" data-provider="loginUser23Data" finished-at="2023-12-20T17:18:46 IST" duration-ms="5711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser23 -->
+        <test-method signature="deleteUser3()[pri:34, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:46 IST" name="deleteUser3" finished-at="2023-12-20T17:18:50 IST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser3 -->
+        <test-method signature="logOutUser23()[pri:35, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:50 IST" name="logOutUser23" finished-at="2023-12-20T17:18:52 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser23 -->
+        <test-method signature="logInAsUser13(java.lang.String,java.lang.String)[pri:36, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:52 IST" name="logInAsUser13" data-provider="loginUser12Data" finished-at="2023-12-20T17:18:57 IST" duration-ms="5851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser13 -->
+        <test-method signature="deleteUser2()[pri:37, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:18:57 IST" name="deleteUser2" finished-at="2023-12-20T17:19:02 IST" duration-ms="4304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser2 -->
+        <test-method signature="logOutUser13()[pri:38, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:19:02 IST" name="logOutUser13" finished-at="2023-12-20T17:19:03 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser13 -->
+        <test-method signature="logInAdmin1(java.lang.String,java.lang.String)[pri:39, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:19:03 IST" name="logInAdmin1" data-provider="loginData" finished-at="2023-12-20T17:19:09 IST" duration-ms="5546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAdmin1 -->
+        <test-method signature="deleteUser1()[pri:40, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:19:09 IST" name="deleteUser1" finished-at="2023-12-20T17:19:13 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser1 -->
+        <test-method signature="logOutAdmin12()[pri:41, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:19:13 IST" name="logOutAdmin12" finished-at="2023-12-20T17:19:14 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin12 -->
+        <test-method signature="closeApplication()[pri:42, instance:com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2@72e5a8e]" started-at="2023-12-20T17:19:14 IST" name="closeApplication" finished-at="2023-12-20T17:19:14 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q9AdvancedScenarioScenarios2 -->
+      <class name="com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:10:50 IST" name="launchBrowser" finished-at="2023-12-20T17:10:52 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:10:52 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:10:55 IST" duration-ms="3372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:10:55 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:11:00 IST" duration-ms="4304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:00 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:11:01 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:01 IST" name="createCustomer" data-provider="createCustomerData" finished-at="2023-12-20T17:11:10 IST" duration-ms="9434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:6, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:10 IST" name="createProject" data-provider="createProjectData" finished-at="2023-12-20T17:11:18 IST" duration-ms="7747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginPageBuild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:18 IST" name="deleteCustomer" finished-at="2023-12-20T17:11:27 IST" duration-ms="8535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOutAdmin()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:27 IST" name="logOutAdmin" finished-at="2023-12-20T17:11:28 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="closeBrowser()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete@13fd2ccd]" started-at="2023-12-20T17:11:28 IST" name="closeBrowser" finished-at="2023-12-20T17:11:28 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q5CreateCustomeProjectAndDelete -->
+      <class name="com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:08 IST" name="launchBrowser" finished-at="2023-12-20T17:10:11 IST" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:11 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:10:14 IST" duration-ms="3454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:14 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:10:19 IST" duration-ms="4517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:19 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:10:20 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:20 IST" name="createCustomer" data-provider="createCustomerData" finished-at="2023-12-20T17:10:29 IST" duration-ms="9546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="modifyCustomer()[pri:6, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:29 IST" name="modifyCustomer" finished-at="2023-12-20T17:10:35 IST" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:35 IST" name="deleteCustomer" finished-at="2023-12-20T17:10:43 IST" duration-ms="8485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOutAdmin()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:43 IST" name="logOutAdmin" finished-at="2023-12-20T17:10:44 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="closeBrowser()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer@48aca48b]" started-at="2023-12-20T17:10:44 IST" name="closeBrowser" finished-at="2023-12-20T17:10:50 IST" duration-ms="5254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q4CreateModifyDeleteCustomer -->
+      <class name="com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:33 IST" name="launchBrowser" finished-at="2023-12-20T17:13:35 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:35 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:13:38 IST" duration-ms="3325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:38 IST" name="login" data-provider="loginData" finished-at="2023-12-20T17:13:43 IST" duration-ms="4429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:43 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:13:44 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:44 IST" name="createUsers" data-provider="createUsersData" finished-at="2023-12-20T17:13:52 IST" duration-ms="8377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method signature="createUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:13:52 IST" name="createUsers" data-provider="createUsersData" finished-at="2023-12-20T17:14:00 IST" duration-ms="7476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method signature="createUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:00 IST" name="createUsers" data-provider="createUsersData" finished-at="2023-12-20T17:14:07 IST" duration-ms="7334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method signature="logOut()[pri:6, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:07 IST" name="logOut" finished-at="2023-12-20T17:14:08 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="logInAsUser1(java.lang.String,java.lang.String)[pri:7, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:08 IST" name="logInAsUser1" data-provider="loginUser1Data" finished-at="2023-12-20T17:14:18 IST" duration-ms="10079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser1 -->
+        <test-method signature="minimizeFlyWindow1()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:18 IST" name="minimizeFlyWindow1" finished-at="2023-12-20T17:14:20 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow1 -->
+        <test-method signature="logOutUser1()[pri:9, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:20 IST" name="logOutUser1" finished-at="2023-12-20T17:14:22 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser1 -->
+        <test-method signature="logInAsUser2(java.lang.String,java.lang.String)[pri:10, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:22 IST" name="logInAsUser2" data-provider="loginUser2Data" finished-at="2023-12-20T17:14:27 IST" duration-ms="5716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser2 -->
+        <test-method signature="minimizeFlyWindow2()[pri:11, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:27 IST" name="minimizeFlyWindow2" finished-at="2023-12-20T17:14:30 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow2 -->
+        <test-method signature="logOutUser2()[pri:12, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:30 IST" name="logOutUser2" finished-at="2023-12-20T17:14:31 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser2 -->
+        <test-method signature="logInAsUSer3(java.lang.String,java.lang.String)[pri:13, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:31 IST" name="logInAsUSer3" data-provider="loginUser3Data" finished-at="2023-12-20T17:14:38 IST" duration-ms="7004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUSer3 -->
+        <test-method signature="minimizeFlyWindow3()[pri:14, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:38 IST" name="minimizeFlyWindow3" finished-at="2023-12-20T17:14:40 IST" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow3 -->
+        <test-method signature="logOutUser3()[pri:15, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:40 IST" name="logOutUser3" finished-at="2023-12-20T17:14:41 IST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser3 -->
+        <test-method signature="adminLogin(java.lang.String,java.lang.String)[pri:16, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:41 IST" name="adminLogin" data-provider="loginData" finished-at="2023-12-20T17:14:47 IST" duration-ms="5676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="minimizeFlyWindow4()[pri:17, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:47 IST" name="minimizeFlyWindow4" finished-at="2023-12-20T17:14:49 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow4 -->
+        <test-method signature="modifyUsersPassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:18, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:14:49 IST" name="modifyUsersPassword" data-provider="modifyUsersPassData" finished-at="2023-12-20T17:15:17 IST" duration-ms="27948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUsersPassword -->
+        <test-method signature="logOutAdmin()[pri:19, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:17 IST" name="logOutAdmin" finished-at="2023-12-20T17:15:18 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="logInAsUser11(java.lang.String,java.lang.String)[pri:20, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:18 IST" name="logInAsUser11" data-provider="loginUser11Data" finished-at="2023-12-20T17:15:24 IST" duration-ms="5787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranavrakshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser11 -->
+        <test-method signature="logOutUser11()[pri:21, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:24 IST" name="logOutUser11" finished-at="2023-12-20T17:15:25 IST" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser11 -->
+        <test-method signature="logInAsUser21(java.lang.String,java.lang.String)[pri:22, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:25 IST" name="logInAsUser21" data-provider="loginUser21Data" finished-at="2023-12-20T17:15:31 IST" duration-ms="5514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thilakthili]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcv@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUser21 -->
+        <test-method signature="logOutUser21()[pri:23, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:31 IST" name="logOutUser21" finished-at="2023-12-20T17:15:32 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser21 -->
+        <test-method signature="logInAsUSer31(java.lang.String,java.lang.String)[pri:24, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:32 IST" name="logInAsUSer31" data-provider="loginUser31Data" finished-at="2023-12-20T17:15:37 IST" duration-ms="5433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raviraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsUSer31 -->
+        <test-method signature="logOutUser31()[pri:25, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:37 IST" name="logOutUser31" finished-at="2023-12-20T17:15:39 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser31 -->
+        <test-method signature="logInAsAdmin1(java.lang.String,java.lang.String)[pri:26, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:39 IST" name="logInAsAdmin1" data-provider="loginData" finished-at="2023-12-20T17:15:44 IST" duration-ms="5640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAsAdmin1 -->
+        <test-method signature="minimizeFlyWindow41()[pri:27, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:44 IST" name="minimizeFlyWindow41" finished-at="2023-12-20T17:15:47 IST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow41 -->
+        <test-method signature="deleteUsers()[pri:28, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:47 IST" name="deleteUsers" finished-at="2023-12-20T17:15:57 IST" duration-ms="9996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+        <test-method signature="logOutAdmin1()[pri:29, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:57 IST" name="logOutAdmin1" finished-at="2023-12-20T17:15:58 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin1 -->
+        <test-method signature="closeApplication()[pri:30, instance:com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios@7d4f9aae]" started-at="2023-12-20T17:15:58 IST" name="closeApplication" finished-at="2023-12-20T17:16:03 IST" duration-ms="5355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q8AdvancedScenarios -->
+      <class name="com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:31 IST" name="launchBrowser" finished-at="2023-12-20T17:09:34 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:34 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:09:37 IST" duration-ms="3409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:37 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:09:42 IST" duration-ms="4575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:42 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:09:43 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:43 IST" name="createCustomer" data-provider="createCustomerData" finished-at="2023-12-20T17:09:52 IST" duration-ms="9711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="deleteCustomer()[pri:6, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:09:52 IST" name="deleteCustomer" finished-at="2023-12-20T17:10:01 IST" duration-ms="8426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOutAdmin()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:10:01 IST" name="logOutAdmin" finished-at="2023-12-20T17:10:02 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAdmin -->
+        <test-method signature="closeBrowser()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer@6bd61f98]" started-at="2023-12-20T17:10:02 IST" name="closeBrowser" finished-at="2023-12-20T17:10:08 IST" duration-ms="6332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q3CreateDeleteCustomer -->
+      <class name="com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:07:58 IST" name="launchBrowser" finished-at="2023-12-20T17:08:06 IST" duration-ms="8393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate(java.lang.String)[pri:2, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:06 IST" name="navigate" data-provider="navigateURL" finished-at="2023-12-20T17:08:13 IST" duration-ms="6540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:13 IST" name="login" data-provider="adminLoginData" finished-at="2023-12-20T17:08:17 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeFlyWindow()[pri:4, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:17 IST" name="minimizeFlyWindow" finished-at="2023-12-20T17:08:18 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:18 IST" name="createUser" data-provider="createUserData" finished-at="2023-12-20T17:08:31 IST" duration-ms="13380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwert@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DemoUser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:31 IST" name="deleteUser" finished-at="2023-12-20T17:08:38 IST" duration-ms="6296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logOut()[pri:7, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:38 IST" name="logOut" finished-at="2023-12-20T17:08:40 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="closeBrowser()[pri:8, instance:com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario@59505b48]" started-at="2023-12-20T17:08:40 IST" name="closeBrowser" finished-at="2023-12-20T17:08:50 IST" duration-ms="9825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.tests.pomscenarios.Q1CreateDeleteUserScenario -->
+      <class name="com.sgtesting.tests.testcases.UnitTestCases">
+        <test-method signature="testCase1()[pri:0, instance:com.sgtesting.tests.testcases.UnitTestCases@21282ed8]" started-at="2023-12-20T17:07:58 IST" name="testCase1" finished-at="2023-12-20T17:07:58 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.sgtesting.tests.testcases.UnitTestCases@21282ed8]" started-at="2023-12-20T17:07:58 IST" name="testCase2" finished-at="2023-12-20T17:07:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:com.sgtesting.tests.testcases.UnitTestCases@21282ed8]" started-at="2023-12-20T17:07:58 IST" name="testCase3" finished-at="2023-12-20T17:07:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.sgtesting.tests.testcases.UnitTestCases@21282ed8]" started-at="2023-12-20T17:07:58 IST" name="testCase4" finished-at="2023-12-20T17:07:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+      </class> <!-- com.sgtesting.tests.testcases.UnitTestCases -->
+    </test> <!-- Scenarios -->
+  </suite> <!-- TestngScenario -->
+</testng-results>
