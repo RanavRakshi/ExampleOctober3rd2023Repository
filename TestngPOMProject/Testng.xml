@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestngScenario">
+	<test name="Scenarios">
+		<classes>
+			<class name="com.sgtesting.tests.Q1CreateDeleteUserScenario"></class>
+			<class name="com.sgtesting.tests.Q2ModifyUser"></class>
+			<class name="com.sgtesting.tests.Q3CreateDeleteCustomer"></class>
+			<class name="com.sgtesting.tests.Q4CreateModifyDeleteCustomer"></class>
+			<class name="com.sgtesting.tests.Q5CreateCustomeProjectAndDelete"></class>
+			<class name="com.sgtesting.tests.Q6CreateCustomeProjectModifyProjectAndDeleteAll"></class>
+			<class name="com.sgtesting.tests.Q7CreateCustomerProjectTaskAndDeleteAll"></class>
+			<class name="com.sgtesting.tests.Q8AdvancedScenarios"></class>
+			<class name="com.sgtesting.tests.Q9AdvancedScenarioScenarios2"></class>
+		</classes>
+	</test>
+</suite>
