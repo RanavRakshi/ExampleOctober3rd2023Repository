@@ -1,0 +1,6 @@
+com\sgtesting\tests\AppTest.class
+com\sgtesting\tests\api\pojo\Users.class
+com\sgtesting\tests\api\pojo\Customers.class
+com\sgtesting\tests\api\stepdefinitions\StepDefinitions.class
+com\sgtesting\tests\api\pojo\Projects.class
+com\sgtesting\tests\api\testsuite\DriverScript.class
